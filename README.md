@@ -17,7 +17,8 @@ A Serial Forwarder built on top of the sdk which combines in the same command sh
 
 *	Local and control client
 
-*	Command history and inline command editing with enhanced visualization through text color
+*	Command history and inline command editing with enhanced visualization through text color (see Wiki)
+
 
 <b>ExampleTelosB </b>(Usage example)
 

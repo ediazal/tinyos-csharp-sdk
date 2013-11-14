@@ -1,5 +1,10 @@
+### NOTE: This project has merged with [tinyos-main/support/sdk/](https://github.com/tinyos/tinyos-main/tree/master/support/sdk/csharp). If future support is needed it will continue there.
+
+
+
 tinyos-csharp-sdk
 =================
+
 
 This is a TinyOS SDK implementation written in C#, similar in functionallity to those found under `tinyos-main/support/sdk` directory. The solution includes the following projects:
 

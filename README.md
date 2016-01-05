@@ -14,7 +14,9 @@ A Serial Forwarder built on top of the sdk which combines in the same command sh
 
 *	Local and control client
 
-*	Command history and inline command editing with enhanced visualization through text color (see Wiki)
+*	Command history and inline command editing with enhanced visualization through text color
+
+![sfsharp](http://i.imgur.com/KuNXPem.png)
 
 <b>ExampleTelosB </b>(Usage example)
 
@@ -24,12 +26,19 @@ Simple application that reads, converts and displays sensor values from telosB n
 
 An implementation of the TestSerial application
 
+#### Dependencies
+ 
+Microsoft .NET v3.5 or higher
 
-#####TODO
+#### Compile
+
+Just run the `build.bat` file or open the solution with Visual Studio
+
+####TODO
 
 - Build a simple [mig](http://www.tinyos.net/tinyos-1.x/doc/nesc/mig.html) program for the sdk
 - Code documentation
 
-#####CREDITS
+#### Credits
 
 www.advanticsys.com

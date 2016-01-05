@@ -1,18 +1,10 @@
-### NOTE: This project has merged with [tinyos-main/support/sdk/](https://github.com/tinyos/tinyos-main/tree/master/support/sdk/csharp). If future support is needed it will continue there.
+This project is a TinyOS SDK implementation written in C# ([tinyos-main/support/sdk/](https://github.com/tinyos/tinyos-main/tree/master/support/sdk/csharp)). The solution includes the following projects:
 
-
-
-tinyos-csharp-sdk
-=================
-
-
-This is a TinyOS SDK implementation written in C#, similar in functionallity to those found under `tinyos-main/support/sdk` directory. The solution includes the following projects:
-
-<b>tinyos-sdk
+<b>tinyos-sdk</b>
 
 A class Library project which compiles into a single `.dll` file that can be referenced from any C# project.
 
-<b>sfsharp
+<b>sfsharp</b>
 
 A Serial Forwarder built on top of the sdk which combines in the same command shell features from both the Java SF and the C++ SF. Features:
 
@@ -24,7 +16,6 @@ A Serial Forwarder built on top of the sdk which combines in the same command sh
 
 *	Command history and inline command editing with enhanced visualization through text color (see Wiki)
 
-
 <b>ExampleTelosB </b>(Usage example)
 
 Simple application that reads, converts and displays sensor values from telosB nodes.
@@ -33,12 +24,12 @@ Simple application that reads, converts and displays sensor values from telosB n
 
 An implementation of the TestSerial application
 
-TODO
-----
-- Port to Mono
-- Build a simple mig program for the sdk
+
+#####TODO
+
+- Build a simple [mig](http://www.tinyos.net/tinyos-1.x/doc/nesc/mig.html) program for the sdk
 - Code documentation
 
-CREDITS
--------
+#####CREDITS
+
 www.advanticsys.com
